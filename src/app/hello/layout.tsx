@@ -15,10 +15,6 @@ export default function HelloLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <header>BackLinkStudio.com</header>
-            <body className={inter.className}>{children}</body>
-            <footer>backLinkStudio.com &copy; 2024</footer>
-        </html>
+        <div>{children}</div>
     );
 }
