@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #160042;
+}
+
+.gradient_text {
+    font-size: 55px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(87.22deg, #c8bdff -1.82%, #baa6ff 5.99%, #6721ff 50.47%, #00cbff 113.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

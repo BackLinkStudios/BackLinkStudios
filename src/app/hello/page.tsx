@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Hello() {
     return (
         <div className="bg-fuchsia-900">
-            Pages
+            <h2 className="gradient_text">Hello</h2>
         </div>
     );
 }
