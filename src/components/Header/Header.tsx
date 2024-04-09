@@ -3,8 +3,8 @@ import Link from "next/link";
 import "./Header.scss";
 import { usePathname } from "next/navigation";
 // import logo from "../../../public/logo.png";
-import logo from './logo.png';
-import Image from "next/image";
+// import logo from './logo.png';
+// import Image from "next/image";
 export default function Header() {
     const pathName = usePathname();
     const NavLinks = [
