@@ -34,8 +34,8 @@ body {
 
 .h2_text {
     // font-size: 10px;
-    @apply text-[48px] md:text-[70px];
-    line-height: 1;
+    @apply text-[38px] md:text-[55px] lg:text-[66px] xl:text-[70px];
+    // line-height: 1;
     font-weight: 700;
     // margin-bottom: 20px;
     // text-transform: uppercase;
@@ -45,9 +45,14 @@ body {
     justify-content: center;
 }
 .gradient_text {
-    @extend .h2_text;
+    // @extend .h2_text;
     background: linear-gradient(89.78deg, #C8BDFF -31.69%, #BAA6FF -22.78%, #6721FF 27.93%, #00CBFF 99.79%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.gradient_text::before, .gradient_text::after {
+    content: " ";
+    display: inline-block;
+    width: 3px;
 }

@@ -30,7 +30,7 @@ export default function Header() {
                         <span className="text-[#6721ff]">Link</span>Studio.com
                     </div> */}
                 </Link>
-                <div className="flex flex-nowrap items-center text-base justify-center">
+                <div className="flex flex-wrap items-center text-base justify-center">
                     {NavLinks.map((nav, i) => {
                         return (
                             <Link key={i} href={nav.path} className={`m-5 text-nowrap ${pathName === nav.path ? "text-[#6721ff]" : "text-white"} text-xl font-semibold hover:text-[#6721ff]`}>

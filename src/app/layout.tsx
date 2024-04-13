@@ -21,9 +21,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${outfit.className} text-slate-200`}>
-                <Header></Header>
+                <Header />
                 {children}
-                <Footer></Footer>
+                <Footer />
             </body>
         </html>
     );
