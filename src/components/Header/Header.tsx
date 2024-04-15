@@ -2,18 +2,12 @@
 import Link from "next/link";
 import "./Header.scss";
 import { usePathname } from "next/navigation";
+import { NavLinks } from "@/components/NavLinks";
 // import logo from "../../../public/logo.png";
 // import logo from './logo.png';
 // import Image from "next/image";
 export default function Header() {
     const pathName = usePathname();
-    const NavLinks = [
-        { name: "Home", path: "/" },
-        { name: "Hello Page", path: "/hello" },
-        { name: "About", path: "/about" },
-        { name: "About", path: "/about" },
-        { name: "About", path: "/about" },
-    ];
     return (
         <header>
             <div className="boredr border-b-2 border-fuchsia-600/20">
